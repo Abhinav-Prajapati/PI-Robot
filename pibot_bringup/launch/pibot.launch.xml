@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="joy" exec="joy_node" name="ps4_controller"/>
+  <node pkg="demo_bot" exec="joy_i2c" name="Drive_hub"/>
+</launch>
